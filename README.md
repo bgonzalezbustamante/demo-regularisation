@@ -12,13 +12,13 @@ This repository contains a demonstration for R of regularisation, shrinkage, and
 *demo-regularisation* \
 |-- CHANGELOG.md \
 |-- code \
-    |-- stage_1_data_cleaning.R \
-    |-- stage_2_regularisation.R \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
 |-- data \
 |-- demo-regularisation.Rproj \
 |-- .gitignore \
 |-- output \
-|-- README.md \
+|-- README.md
 
 XX directories and XX files.
 
