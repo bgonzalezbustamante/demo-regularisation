@@ -9,16 +9,16 @@ This repository contains a demonstration for R of regularisation, shrinkage, and
 
 ## Tree list of directories and files
 
-*demo-regularisation*
-|-- CHANGELOG.md
-|-- code
-    |-- stage_1_data_cleaning.R
-    |-- stage_2_regularisation.R
-|-- data
-|-- demo-regularisation.Rproj
-|-- .gitignore
-|-- output
-|-- README.md
+*demo-regularisation* \
+|-- CHANGELOG.md \
+|-- code \
+    |-- stage_1_data_cleaning.R \
+    |-- stage_2_regularisation.R \
+|-- data \
+|-- demo-regularisation.Rproj \
+|-- .gitignore \
+|-- output \
+|-- README.md \
 
 XX directories and XX files.
 
