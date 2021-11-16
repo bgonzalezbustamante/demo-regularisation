@@ -51,6 +51,6 @@ Alternatively, it is possible to run stage_2 to check the methods directly.
 
 WIP.
 
-### Latest revision
+### Latest Revision
 
 [November 16, 2021](CHANGELOG.md).
