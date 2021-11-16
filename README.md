@@ -7,7 +7,7 @@
 
 This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods.
 
-## Tree list of directories and files
+## Tree List of Directories and Files
 
 *demo-regularisation* \
 |-- CHANGELOG.md \
