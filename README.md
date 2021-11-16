@@ -1,5 +1,5 @@
 # demo-regularisation
-**Demonstration in R for Regularisation and Cross-Validation**
+**Regularisation and Cross-Validation: Demonstration for R**
 
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/blob/master/CHANGELOG.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](https://github.com/bgonzalezbustamante/demo-regularisation/blob/master/CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](https://github.com/bgonzalezbustamante/demo-regularisation/blob/master/LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
