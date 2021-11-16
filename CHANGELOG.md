@@ -1,11 +1,10 @@
 # Changelog
-All notable changes to "Demonstration in R for Regularisation and Cross-Validation" will be documented in this file.
+All notable changes to "Regularisation and Cross-Validation: Demonstration for R" will be documented in this file.
 
 ## [Unreleased]
 
 ## [1.0.0] - TBC
 ### Added
-- GitHub page powered by Jekyll.
 - Zenodo DOI.
 ### Changed
 - Minor corrections.
@@ -14,8 +13,8 @@ All notable changes to "Demonstration in R for Regularisation and Cross-Validati
 
 ## [0.2.0] - 2021-11-16
 ### Added
-- Cleaning script.
-- Regularisation script.
+- Cleaning script (WIP).
+- Regularisation script (WIP).
 ### Changed
 - Revision of upgrade versioning.
 - Minor corrections.
