@@ -16,6 +16,7 @@ This repository contains a demonstration for R of regularisation, shrinkage, and
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
 |-- data \
 |-- demo-regularisation.Rproj \
+|-- LICENSE.md
 |-- .gitignore \
 |-- output \
 |-- README.md
