@@ -11,7 +11,7 @@ Chunks of this code for extraction and handling V-Dem and World Bank data were u
 
 - González-Bustamante, B. (2021). Early Government Responses to COVID-19 in South America. *World Development, 137*, 105180. DOI: [10.1016/j.worlddev.2020.105180](https://doi.org/10.1016/j.worlddev.2020.105180)
 
-Further details and different applications on this [GitHub repository](https://bgonzalezbustamante.github.io/COVID-19-South-America/) and this OSF-Project (DOI: [10.17605/OSF.IO/6FM7X](https://doi.org/)).
+Further details and different applications on this [GitHub repository](https://bgonzalezbustamante.github.io/COVID-19-South-America/) and this OSF-Project (DOI: [10.17605/OSF.IO/6FM7X](https://doi.org/10.17605/OSF.IO/6FM7X)).
 
 ## Metadata and Preservation
 
