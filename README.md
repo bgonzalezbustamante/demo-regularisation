@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods. The application of these techniques is for illustrative purposes only. The application of these techniques is for illustrative purposes only. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls and adjustments to standard errors.
+This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods. The application of these techniques is for illustrative purposes only. The application of these techniques is for illustrative purposes only. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls, adjustments to standard errors, and robustness checks.
 
 Chunks of this code for extraction and handling V-Dem and World Bank data were used in the following article:
 
