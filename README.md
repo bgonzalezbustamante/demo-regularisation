@@ -1,7 +1,7 @@
 # demo-regularisation
 **Regularisation and Cross-Validation: Demonstration for R**
 
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/blob/master/CHANGELOG.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](https://github.com/bgonzalezbustamante/demo-regularisation/blob/master/CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](https://github.com/bgonzalezbustamante/demo-regularisation/blob/master/LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](CHANGELOG.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
@@ -59,7 +59,7 @@ WIP.
 
 ## License
 
-WIP.
+This RStudio theme is released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
 
 ## Citation
 
@@ -67,8 +67,11 @@ WIP.
 
 ## Author
 
-WIP.
+Bastián González-Bustamante \
+bastian.gonzalezbustamante@politics.ox.ac.uk \
+https://orcid.org/0000-0003-1510-6820 \
+https://bgonzalezbustamante.com 
 
 ### Latest Revision
 
-[November 16, 2021](CHANGELOG.md).
+[November 17, 2021](CHANGELOG.md).
