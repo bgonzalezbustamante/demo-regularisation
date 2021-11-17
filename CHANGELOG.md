@@ -8,6 +8,7 @@ All notable changes to "Regularisation and Cross-Validation: Demonstration for R
 - Zenodo DOI.
 ### Changed
 - Minor corrections.
+- Citation CFF file.
 
 ## [Released]
 
@@ -16,6 +17,7 @@ All notable changes to "Regularisation and Cross-Validation: Demonstration for R
 - Repository status badge.
 - Cleaning script (WIP).
 - Regularisation script (WIP).
+- Citation CFF file.
 ### Changed
 - Revision of upgrade versioning (WIP).
 - Minor corrections.
