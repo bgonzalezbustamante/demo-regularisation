@@ -5,7 +5,11 @@
 
 ## Overview
 
-This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods.
+This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods. The application of these techniques is for illustrative purposes only. Part of this code has been used in the following article:
+
+- González-Bustamante, B. (2021). Early Government Responses to COVID-19 in South America. *World Development, 137*, 105180. DOI: [10.1016/j.worlddev.2020.105180](https://doi.org/10.1016/j.worlddev.2020.105180)
+
+Further details and different applications on this [GitHub repository](https://bgonzalezbustamante.github.io/COVID-19-South-America/).
 
 ## Metadata and Preservation
 
