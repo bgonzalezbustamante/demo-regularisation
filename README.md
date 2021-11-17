@@ -5,13 +5,13 @@
 
 ## Overview
 
-This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods. The application of these techniques is for illustrative purposes only. The application of these techniques is for illustrative purposes only. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls, adjustments to standard errors, and robustness checks.
+This repository contains a demonstration for R of regularisation, cross-validation, and shrinkage methods. The application of these techniques is for illustrative purposes only. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls, adjustments to standard errors, and robustness checks.
 
 Chunks of this code for extraction and handling V-Dem and World Bank data were used in the following article:
 
 - González-Bustamante, B. (2021). Early Government Responses to COVID-19 in South America. *World Development, 137*, 105180. DOI: [10.1016/j.worlddev.2020.105180](https://doi.org/10.1016/j.worlddev.2020.105180)
 
-Further details and different applications on this [GitHub repository](https://bgonzalezbustamante.github.io/COVID-19-South-America/) and this OSF-Project (DOI: 10.17605/OSF.IO/6FM7X).
+Further details and different applications on this [GitHub repository](https://bgonzalezbustamante.github.io/COVID-19-South-America/) and this OSF-Project (DOI: [10.17605/OSF.IO/6FM7X](https://doi.org/)).
 
 ## Metadata and Preservation
 
@@ -20,13 +20,24 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 *demo-regularisation* \
 |-- CHANGELOG.md \
 |-- code \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo_files \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- lasso-1.png \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- lasso-2.png \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ols-1.png \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-1.png \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-2.png \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.md \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
 |-- data \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- vdem_wb.csv \
 |-- demo-regularisation.Rproj \
 |-- LICENSE.md
 |-- .gitignore \
 |-- output \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html \
 |-- README.md
 
 XX directories and XX files.
@@ -43,27 +54,45 @@ The GitHub repository has controlled access with Two-Factor Authentication (2FA)
 
 We use R version 4.1.0 (2021-05-18) -- "Camp Pontanezen".
 
-Required R libraries are: TBC.
+Required R libraries are: "broom", "caret", "coefplot", "glmnet", "tidyverse", and "stargazer".
 
 We recommend that users run replication code and scripts from the root directory using the R project "demo-regularisation.Rproj".
 
 ### Replication Instructions
 
-The folder "output" contains all tables provided as .html files and plots in .jpg format.
+The folder "code" contains the R scripts and a demonstration file in MD. On the other hand, "output" contains all tables provided as HTML files.
 
 These files will be overwritten if you reproduced the steps described below. 
 
 - **Stage 1.** Run R script "stage_1_data_cleaning.R" from the code folder. This script splits V-Dem data[^1] and merges them with World Bank indicators[^2] on GDP growth and inflation. Then, a significantly smaller and more manageable data set is saved in CSV UTF-8 format (1.57 MB) on this repository.
 
-- **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the regularisation and cross-validation demonstration for R.
-
-- **Stage 3.** 
+- **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the demonstration for R. Alternatively, it is possible to run "regularisation_demo.md" and the files in "code/regularisation_demo_files" subfolder will be overwritten.
 
 It is possible to run the code from the second stage onward to check the methods directly. Considering the volume of V-Dem data (182 MB), running the first code takes some time.
 
 ### Codebook
 
-WIP
+The file "vdem_wb.csv" is the merged, sliced data from V-Dem and World Bank (*N* = 27,013). This data set contains country-year observations from 1789 to 2019 of 202 countries.
+
+- **country** (country_name in V-Dem). Country name.
+
+- **year**. Year variable.
+
+- **egal_dem** (v2x_egaldem in V-Dem).
+
+- **corruption** (v2x_corr in V-Dem). Political corruption index.
+
+- **military** (v2x_ex_military in V-Dem). Military dimension index.
+
+- **free_exp** (v2x_freexp in V-Dem). Freedom of expression index.
+
+- **fed_uni** (v2x_feduni in V-Dem). Division of power index.
+
+- **inflation** (FP.CPI.TOTL.ZG in World Bank API). Inflation, consumer prices (annual percentage).
+
+- **gdp** (NY.GDP.MKTP.KD.ZG in World Bank API). GDP growth (annual percentage).
+
+- **gdp_pc** (NY.GDP.PCAP.KD.ZG in World Bank API). GDP per capita growth (annual percentage).
 
 ## License
 
