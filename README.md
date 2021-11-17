@@ -63,7 +63,7 @@ We recommend that users run replication code and scripts from the root directory
 
 ### Replication Instructions
 
-The folder "code" contains the R scripts and a [demonstration](code/regularisation_demo.md) file in Rmd format. On the other hand, "output" includes all tables provided as HTML files.
+The folder "code" contains the R scripts and a **[demonstration](code/regularisation_demo.md)** file in Rmd format. On the other hand, "output" includes all tables provided as HTML files.
 
 These files will be overwritten if you reproduced the steps described below. 
 
