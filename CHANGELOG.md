@@ -3,20 +3,14 @@ All notable changes to "Regularisation and Cross-Validation: Demonstration for R
 
 ## [Unreleased]
 
-## [1.0.0] - TBC
-### Added
-- Zenodo DOI.
-### Changed
-- Minor corrections.
-- Citation CFF file.
-
 ## [Released]
 
-## [0.3.2] - 2021-11-17
+## [1.0.0] - 2021-11-17
 ### Added
 - Repository status badge.
 - Citation CFF file.
-- Cleaning script (WIP).
+- Cleaning script.
+- Zenodo DOI.
 ### Changed
 - OLS regularisation code 
 - Cross-Validation procedures code.
