@@ -9,7 +9,7 @@ This repository contains a demonstration for R of regularisation, shrinkage, and
 
 ## Metadata and Preservation
 
-This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier (DOI) is provided by Zenodo. The structure of the repository is detailed below.
+This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier (DOI: TBC) is provided by Zenodo. The structure of the repository is detailed below.
 
 *demo-regularisation* \
 |-- CHANGELOG.md \
@@ -26,6 +26,10 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 XX directories and XX files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the replicability of the code.
+
+## Store and Backup
+
+The GitHub repository has controlled access with Two-Factor Authentication (2FA) with two physical USB security devices (Bastián González-Bustamante, [ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)). Both USB keys issue one-time passwords to generate a cryptographic authentication FIDO 2 and U2F.
 
 ## Getting Started
 
@@ -69,8 +73,21 @@ WIP
 
 Bastián González-Bustamante \
 bastian.gonzalezbustamante@politics.ox.ac.uk \
-https://orcid.org/0000-0003-1510-6820 \
+[ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820) \
 https://bgonzalezbustamante.com 
+
+## CRediT - Contributor Roles Taxonomy
+
+Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)) \
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_curation.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/formal_analysis.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/methodology.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/project_administration.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/resources.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/computation.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/testing.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_visualization.png" align="left" width="55" /> <br /><br />
 
 ### Latest Revision
 
