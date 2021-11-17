@@ -78,15 +78,15 @@ The file "vdem_wb.csv" is the merged, sliced data from V-Dem and World Bank (*N*
 
 - **year**. Year variable.
 
-- **egal_dem** (v2x_egaldem in V-Dem).
+- **egal_dem** (v2x_egaldem in V-Dem). Egalitarian democracy index. It considers freedoms protected across all social groups, resources distributed equally across all social groups, and equal access to power. It also takes into account the level of electoral democracy.
 
-- **corruption** (v2x_corr in V-Dem). Political corruption index.
+- **corruption** (v2x_corr in V-Dem). Political corruption index. This index measures how pervasive is political corruption and considers measures of six distinct types of corruption from different areas of the political field, distinguishing between executive, legislative, and judicial corruption.
 
-- **military** (v2x_ex_military in V-Dem). Military dimension index.
+- **military** (v2x_ex_military in V-Dem). Military dimension index. This index measures if the military determines the chief executive's power base based on appointments made through a coup or rebellions and if the military can remove them.
 
-- **free_exp** (v2x_freexp in V-Dem). Freedom of expression index.
+- **free_exp** (v2x_freexp in V-Dem). Freedom of expression index. It reflects the government's level of respect for press and media freedom, the freedom to discuss political matters in the public sphere, and freedom of academic and cultural expressions.
 
-- **fed_uni** (v2x_feduni in V-Dem). Division of power index.
+- **fed_uni** (v2x_feduni in V-Dem). Division of power index. This index reflects if the local and regional governments are elected and the level of independence in the decision-making process.
 
 - **inflation** (FP.CPI.TOTL.ZG in World Bank API). Inflation, consumer prices (annual percentage).
 
