@@ -13,7 +13,7 @@ Further details and different applications on this [GitHub repository](https://b
 
 ## Metadata and Preservation
 
-This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier (DOI: TBC) is provided by Zenodo. The structure of the repository is detailed below.
+This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
 *demo-regularisation* \
 |-- CHANGELOG.md \
