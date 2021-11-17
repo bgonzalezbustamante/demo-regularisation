@@ -55,7 +55,7 @@ Alternatively, it is possible to run stage_2 to check the methods directly.
 
 ## Codebook
 
-WIP.
+WIP
 
 ## License
 
@@ -63,7 +63,7 @@ This R code is released under a [Creative Commons Attribution 4.0 International 
 
 ## Citation
 
-WIP.
+WIP
 
 ## Author
 
