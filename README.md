@@ -51,7 +51,7 @@ The folder "output" contains all tables provided as .html files and plots in .jp
 
 These files will be overwritten if you reproduced the steps described below. 
 
-- **Stage 1.** Run R script "stage_1_data_cleaning.R" from the code folder. This script splits V-Dem data[^1] and merges them with World Bank indicators on GDP growth and inflation. Then, a significantly smaller and more manageable data set is saved in XXX format on this repository.
+- **Stage 1.** Run R script "stage_1_data_cleaning.R" from the code folder. This script splits V-Dem data[^1] and merges them with World Bank indicators[^2] on GDP growth and inflation. Then, a significantly smaller and more manageable data set is saved in XXX format on this repository.
 
 - **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the regularisation and cross-validation demonstration for R.
 
@@ -96,3 +96,4 @@ Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/
 [November 17, 2021](CHANGELOG.md).
 
 [^1]: V-Dem [Country–Year/Country–Date] Dataset v10 (Coppedge et al., 2020; DOI: https://doi.org/10.23696/vdemds20.) is downloaded from our OSF-project on COVID-19 in South America (DOI: TBC) during the first stage. However, it is important to bear in mind that the current data set is v11.1.
+[^2]: Data downloaded during the first stage from the World Bank API.
