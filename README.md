@@ -7,7 +7,9 @@
 
 This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods.
 
-## Tree List of Directories and Files
+## Metadata and Preservation
+
+This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier (DOI) is provided by Zenodo. The structure of the repository is detailed below.
 
 *demo-regularisation* \
 |-- CHANGELOG.md \
@@ -23,7 +25,11 @@ This repository contains a demonstration for R of regularisation, shrinkage, and
 
 XX directories and XX files.
 
-## Software
+In addition, this README file in Markdown (MD) format provides specific information to ensure the replicability of the code.
+
+## Getting Started
+
+### Software
 
 We use R version 4.1.0 (2021-05-18) -- "Camp Pontanezen".
 
@@ -31,7 +37,7 @@ Required R libraries are: TBC.
 
 We recommend that users run replication code and scripts from the root directory using the R project "demo-regularisation.Rproj".
 
-## Instructions to replicate scripts
+### Replication Instructions
 
 The folder "output" contains all tables provided as .html files and plots in .jpg format.
 
@@ -48,6 +54,18 @@ These files will be overwritten if you reproduced the steps described below.
 Alternatively, it is possible to run stage_2 to check the methods directly. 
 
 ## Codebook
+
+WIP.
+
+## License
+
+WIP.
+
+## Citation
+
+WIP.
+
+## Author
 
 WIP.
 
