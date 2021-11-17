@@ -18,7 +18,9 @@ Further details and different applications on this [GitHub repository](https://b
 This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
 *demo-regularisation* \
+|-- .gitignore \
 |-- CHANGELOG.md \
+|-- CITATION.cff \
 |-- code \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo_files \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
@@ -28,19 +30,20 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-1.png \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-2.png \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.Rmd \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- vdem_wb.csv \
 |-- demo-regularisation.Rproj \
 |-- LICENSE.md
-|-- .gitignore \
 |-- output \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html \
 |-- README.md
+|-- STATUS.md
 
-XX directories and XX files.
+5 directories and 19 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the replicability of the code.
 
@@ -60,35 +63,35 @@ We recommend that users run replication code and scripts from the root directory
 
 ### Replication Instructions
 
-The folder "code" contains the R scripts and a demonstration file in MD. On the other hand, "output" contains all tables provided as HTML files.
+The folder "code" contains the R scripts and a [demonstration](code/regularisation_demo.md) file in Rmd format. On the other hand, "output" includes all tables provided as HTML files.
 
 These files will be overwritten if you reproduced the steps described below. 
 
 - **Stage 1.** Run R script "stage_1_data_cleaning.R" from the code folder. This script splits V-Dem data[^1] and merges them with World Bank indicators[^2] on GDP growth and inflation. Then, a significantly smaller and more manageable data set is saved in CSV UTF-8 format (1.57 MB) on this repository.
 
-- **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the demonstration for R. Alternatively, it is possible to run "regularisation_demo.md" and the files in "code/regularisation_demo_files" subfolder will be overwritten.
+- **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the demonstration for R. Alternatively, it is possible to run "regularisation_demo.Rmd" and the files in "code/regularisation_demo_files" subfolder will be overwritten.
 
-It is possible to run the code from the second stage onward to check the methods directly. Considering the volume of V-Dem data (182 MB), running the first code takes some time.
+It is possible to run the code from the second stage onward to check the methods directly. Considering the volume of V-Dem data (182 MB), running the first script takes some time.
 
 ### Codebook
 
-The file "vdem_wb.csv" is the merged, sliced data from V-Dem and World Bank (*N* = 27,013). This data set contains country-year observations from 1789 to 2019 of 202 countries.
+The file "vdem_wb.csv" is the merged, sliced data set from V-Dem and World Bank (*N* = 27,013). This set contains country-year observations from 1789 to 2019 of 202 countries.
 
 - **country** (country_name in V-Dem). Country name.
 
 - **year**. Year variable.
 
-- **egal_dem** (v2x_egaldem in V-Dem). Egalitarian democracy index. It considers freedoms protected across all social groups, resources distributed equally across all social groups, and equal access to power. It also takes into account the level of electoral democracy.
+- **egal_dem** (v2x_egaldem in V-Dem). The egalitarian democracy index considers freedoms protected across all social groups, resources distributed equally across all social groups, and equal access to power. It also takes into account the level of electoral democracy.
 
-- **corruption** (v2x_corr in V-Dem). Political corruption index. This index measures how pervasive is political corruption and considers measures of six distinct types of corruption from different areas of the political field, distinguishing between executive, legislative, and judicial corruption.
+- **corruption** (v2x_corr in V-Dem). The political corruption index measures how pervasive is political corruption and considers measures of six distinct types of corruption from different areas of the political field, distinguishing between executive, legislative, and judicial corruption.
 
-- **military** (v2x_ex_military in V-Dem). Military dimension index. This index measures if the military determines the chief executive's power base based on appointments made through a coup or rebellions and if the military can remove them.
+- **military** (v2x_ex_military in V-Dem). The military dimension index measures if the military determines the chief executive's power base based on appointments made through a coup or rebellions and if the military can remove them.
 
-- **free_exp** (v2x_freexp in V-Dem). Freedom of expression index. It reflects the government's level of respect for press and media freedom, the freedom to discuss political matters in the public sphere, and freedom of academic and cultural expressions.
+- **free_exp** (v2x_freexp in V-Dem). The freedom of expression index reflects the government's level of respect for press and media freedom, the freedom to discuss political matters in the public sphere, and freedom of academic and cultural expressions.
 
-- **fed_uni** (v2x_feduni in V-Dem). Division of power index. This index reflects if the local and regional governments are elected and the level of independence in the decision-making process.
+- **fed_uni** (v2x_feduni in V-Dem). The division of power index reflects if the local and regional governments are elected and the level of independence in the decision-making process.
 
-- **inflation** (FP.CPI.TOTL.ZG in World Bank API). Inflation, consumer prices (annual percentage).
+- **inflation** (FP.CPI.TOTL.ZG in World Bank API). Inflation based on consumer prices (annual percentage).
 
 - **gdp** (NY.GDP.MKTP.KD.ZG in World Bank API). GDP growth (annual percentage).
 
@@ -96,7 +99,7 @@ The file "vdem_wb.csv" is the merged, sliced data from V-Dem and World Bank (*N*
 
 ## License
 
-This R code is released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
+This R code and merged, sliced data set from V-Dem and World Bank are released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
 
 ## Citation
 
