@@ -36,11 +36,11 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- vdem_wb.csv \
 |-- demo-regularisation.Rproj \
-|-- LICENSE.md
+|-- LICENSE.md \
 |-- output \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html \
-|-- README.md
+|-- README.md \
 |-- STATUS.md
 
 5 directories and 19 files.
