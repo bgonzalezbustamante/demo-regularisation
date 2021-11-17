@@ -51,13 +51,9 @@ The folder "output" contains all tables provided as .html files and plots in .jp
 
 These files will be overwritten if you reproduced the steps described below. 
 
-- Stage_1
-  Run R script "stage_1_data_cleaning.R" from the code folder
-  This script cleans XXX data.
+- **Stage 1.** Run R script "stage_1_data_cleaning.R" from the code folder. This script cleans XXX data.
 
-- Stage_2
-  Run R script "stage_2_regularisation.R" from the code folder
-  This script contains the R demonstration.
+- **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the R demonstration.
 
 Alternatively, it is possible to run stage_2 to check the methods directly. 
 
