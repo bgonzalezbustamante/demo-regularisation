@@ -1,7 +1,7 @@
 # demo-regularisation
 **Regularisation and Cross-Validation: Demonstration for R**
 
-[![Version](https://img.shields.io/badge/version-v0.3.2-blue.svg)](CHANGELOG.md) [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v0.3.2-blue.svg)](CHANGELOG.md) [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428344428.svg)](https://zenodo.org/badge/latestdoi/428344428) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
@@ -103,7 +103,7 @@ This R code and merged, sliced data set from V-Dem and World Bank are released u
 
 ## Citation
 
-González-Bustamante, B. (2021). Regularisation and Cross-Validation: Demonstration for R (Version 1.0.0 -- Winter Heart) [Computer software]. 
+González-Bustamante, B. (2021). Regularisation and Cross-Validation: Demonstration for R (Version 1.0.0 -- Winter Heart) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
 
 ## Author
 
