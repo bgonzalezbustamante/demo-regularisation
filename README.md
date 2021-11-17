@@ -5,7 +5,9 @@
 
 ## Overview
 
-This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods. The application of these techniques is for illustrative purposes only. Chunks of this code for extraction and handling V-Dem and World Bank data were used in the following article:
+This repository contains a demonstration for R of regularisation, shrinkage, and cross-validation methods. The application of these techniques is for illustrative purposes only. The application of these techniques is for illustrative purposes only. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls and adjustments to standard errors.
+
+Chunks of this code for extraction and handling V-Dem and World Bank data were used in the following article:
 
 - González-Bustamante, B. (2021). Early Government Responses to COVID-19 in South America. *World Development, 137*, 105180. DOI: [10.1016/j.worlddev.2020.105180](https://doi.org/10.1016/j.worlddev.2020.105180)
 
@@ -33,7 +35,7 @@ In addition, this README file in Markdown (MD) format provides specific informat
 
 ## Store and Backup
 
-The GitHub repository has controlled access with Two-Factor Authentication (2FA) with two physical USB security devices (Bastián González-Bustamante, [ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)). Both USB keys issue one-time passwords to generate a cryptographic authentication FIDO 2 and U2F.
+The GitHub repository has controlled access with Two-Factor Authentication (2FA) with two physical USB security devices (Bastián González-Bustamante, [ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)). Both USB keys issue one-time passwords to generate a cryptographic authentication FIDO2 and U2F.
 
 ## Getting Started
 
