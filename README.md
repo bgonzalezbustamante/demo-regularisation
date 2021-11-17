@@ -103,7 +103,7 @@ This R code and merged, sliced data set from V-Dem and World Bank are released u
 
 ## Citation
 
-WIP
+González-Bustamante, B. (2021). Regularisation and Cross-Validation: Demonstration for R (Version 1.0.0 -- Winter Heart) [Computer software]. 
 
 ## Author
 
