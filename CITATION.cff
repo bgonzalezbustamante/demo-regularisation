@@ -5,7 +5,7 @@ authors:
   given-names: "Bastián"
   orcid: "https://orcid.org/0000-0003-1510-6820"
 title: "Regularisation and Cross-Validation: Demonstration for R"
-version: "1.0.0 -- "Winter Heart""
+version: "1.0.0 -- Winter Heart"
 doi: 
 date-released: 2021-11-17
 url: "https://github.com/bgonzalezbustamante/demo-regularisation"
