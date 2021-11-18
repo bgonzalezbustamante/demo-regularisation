@@ -1,9 +1,13 @@
 # Changelog
-All notable changes to "Regularisation and Cross-Validation: Demonstration for R" will be documented in this file.
+All notable changes to "Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R" will be documented in this file.
 
 ## [Unreleased]
 
 ## [Released]
+
+## [1.0.1] - 2021-11-18
+### Changed
+- Minor corrections.
 
 ## [1.0.0] - 2021-11-17
 ### Added
