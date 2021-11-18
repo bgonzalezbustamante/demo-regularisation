@@ -5,7 +5,7 @@ authors:
   given-names: "Bastián"
   orcid: "https://orcid.org/0000-0003-1510-6820"
 title: "Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R"
-version: "1.010 -- Shiny Scene"
+version: "1.0.1 -- Shiny Scene"
 doi: 10.5281/zenodo.5708892
 date-released: 2021-11-18
 url: "https://github.com/bgonzalezbustamante/demo-regularisation"
