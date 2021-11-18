@@ -1,7 +1,7 @@
 # demo-regularisation
-**Regularisation and Cross-Validation: Demonstration for R**
+**Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R**
 
-[![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428344428.svg)](https://zenodo.org/badge/latestdoi/428344428) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v1.0.1-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428344428.svg)](https://zenodo.org/badge/latestdoi/428344428) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
@@ -63,7 +63,7 @@ We recommend that users run replication code and scripts from the root directory
 
 ### Replication Instructions
 
-The folder "code" contains the R scripts and a **[demonstration](code/regularisation_demo.md)** file in Rmd format. On the other hand, "output" includes all tables provided as HTML files.
+The folder "code" contains the R scripts and a demonstration in RMD and MD formats (**[regularisation_demo.md](code/regularisation_demo.md)**). On the other hand, "output" includes all tables provided as HTML files.
 
 These files will be overwritten if you reproduced the steps described below. 
 
@@ -103,7 +103,7 @@ This R code and merged, sliced data set from V-Dem and World Bank are released u
 
 ## Citation
 
-González-Bustamante, B. (2021). Regularisation and Cross-Validation: Demonstration for R (Version 1.0.0 -- Winter Heart) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
+González-Bustamante, B. (2021). Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R (Version 1.0.0 -- Winter Heart) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
 
 ## Author
 
@@ -118,7 +118,7 @@ Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/
 
 ### Latest Revision
 
-[November 17, 2021](CHANGELOG.md).
+[November 18, 2021](CHANGELOG.md).
 
 [^1]: V-Dem [Country–Year/Country–Date] Dataset v10 (Coppedge et al., 2020; DOI: https://doi.org/10.23696/vdemds20.) is downloaded from our OSF-project on COVID-19 in South America (DOI: TBC) during the first stage. However, it is important to bear in mind that the current data set is v11.1.
 [^2]: Data downloaded during the first stage from the World Bank API.
