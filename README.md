@@ -103,7 +103,7 @@ This R code and merged, sliced data set from V-Dem and World Bank are released u
 
 ## Citation
 
-González-Bustamante, B. (2021). Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R (Version 1.0.0 -- Winter Heart) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
+González-Bustamante, B. (2021). Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R (Version 1.0.1 -- Shiny Scene) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
 
 ## Author
 
