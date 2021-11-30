@@ -27,6 +27,7 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 |-- STATUS.md \
 |-- code \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.R \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.Rmd \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
@@ -43,7 +44,7 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html 
 
-5 directories and 19 files.
+5 directories and 20 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the replicability of the code.
 
