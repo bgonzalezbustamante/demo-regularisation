@@ -68,9 +68,9 @@ Folder "code" contains the R scripts and a demonstration in RMD and MD formats (
 
 These files will be overwritten if you reproduced the steps described below. 
 
-- **Stage 1.** Run R script "stage_1_data_cleaning.R" from the code folder. This script splits V-Dem data[^1] and merges them with World Bank indicators[^2] on GDP growth and inflation. Then, a significantly smaller and more manageable data set is saved in CSV UTF-8 format (1.57 MB) on this repository.
+- **Stage 1.** Run R script "**stage_1_data_cleaning.R**" from the code folder. This script splits V-Dem data[^1] and merges them with World Bank indicators[^2] on GDP growth and inflation. Then, a significantly smaller and more manageable data set is saved in CSV UTF-8 format (1.57 MB) on this repository.
 
-- **Stage 2.** Run R script "stage_2_regularisation.R" from the code folder. This script contains the demonstration for R. Alternatively, it is possible to run "regularisation_demo.Rmd" and the files in "code/regularisation_demo_files" subfolder will be overwritten.
+- **Stage 2.** Run R script "**stage_2_regularisation.R**" from the code folder. This script contains the demonstration for R. Alternatively, it is possible to run "regularisation_demo.Rmd" and the files in "code/regularisation_demo_files" subfolder will be overwritten.
 
 It is possible to run the code from the second stage onward to check the methods directly. Considering the volume of V-Dem data (182 MB), running the first script takes some time.
 
