@@ -19,7 +19,7 @@ All notable changes to "Regularisation and Cross-Validation of Determinants of E
 ### Added
 - Repository status badge.
 - Citation CFF file.
-- Cleaning script.
+- Data cleaning script.
 - Zenodo DOI.
 ### Changed
 - OLS regularisation code 
