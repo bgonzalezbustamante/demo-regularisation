@@ -1,7 +1,7 @@
 # demo-regularisation
 **Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R**
 
-[![Version](https://img.shields.io/badge/version-v1.0.1-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428344428.svg)](https://zenodo.org/badge/latestdoi/428344428) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v1.1.1-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/demo-regularisation.svg)](https://github.com/bgonzalezbustamante/demo-regularisation/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428344428.svg)](https://zenodo.org/badge/latestdoi/428344428) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
@@ -21,7 +21,15 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 |-- .gitignore \
 |-- CHANGELOG.md \
 |-- CITATION.cff \
+|-- demo-regularisation.Rproj \
+|-- LICENSE.md \
+|-- README.md \
+|-- STATUS.md \
 |-- code \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.Rmd \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo_files \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- lasso-1.png \
@@ -29,19 +37,11 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ols-1.png \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-1.png \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-2.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.md \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.Rmd \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- vdem_wb.csv \
-|-- demo-regularisation.Rproj \
-|-- LICENSE.md \
 |-- output \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html \
-|-- README.md \
-|-- STATUS.md
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html 
 
 5 directories and 19 files.
 
@@ -63,7 +63,7 @@ We recommend that users run replication code and scripts from the root directory
 
 ### Replication Instructions
 
-The folder "code" contains the R scripts and a demonstration in RMD and MD formats (**[regularisation_demo.md](code/regularisation_demo.md)**). On the other hand, "output" includes all tables provided as HTML files.
+Folder "code" contains the R scripts and a demonstration in RMD and MD formats (**[regularisation_demo.md](code/regularisation_demo.md)**). On the other hand, "output" includes all tables provided as HTML files.
 
 These files will be overwritten if you reproduced the steps described below. 
 
@@ -75,7 +75,7 @@ It is possible to run the code from the second stage onward to check the methods
 
 ### Codebook
 
-The file "vdem_wb.csv" is the merged, sliced data set from V-Dem and World Bank (*N* = 27,013). This set contains country-year observations from 1789 to 2019 of 202 countries.
+The file "**vdem_wb.csv**" in "data" folder is the merged, sliced data set from V-Dem and World Bank (*N* = 27,013). This set contains country-year observations from 1789 to 2019 of 202 countries.
 
 - **country** (country_name in V-Dem). Country name.
 
@@ -101,9 +101,17 @@ The file "vdem_wb.csv" is the merged, sliced data set from V-Dem and World Bank 
 
 This R code and merged, sliced data set from V-Dem and World Bank are released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
 
+## Contribute
+
+Contributions are entirely welcome. You just need to [open an issue](https://github.com/bgonzalezbustamante/demo-regularisation/issues/new) with your comment or idea.
+
+For more substantial contributions, please fork this repository and make changes. Pull requests are also welcome.
+
+Please read our [code of conduct](CODE_OF_CONDUCT.md) first. Minor contributions will be acknowledged, and significant ones will be considered on our contributor roles taxonomy.
+
 ## Citation
 
-González-Bustamante, B. (2021). Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R (Version 1.0.1 -- Shiny Scene) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
+González-Bustamante, B. (2021). Regularisation and Cross-Validation of Determinants of Egalitarian Democracy: Demonstration for R (Version 1.1.1 -- Autumn Mode) [Computer software]. DOI: [10.5281/zenodo.5708892](https://doi.org/10.5281/zenodo.5708892)
 
 ## Author
 
