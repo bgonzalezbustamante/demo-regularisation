@@ -59,7 +59,7 @@ We use R version 4.1.0 (2021-05-18) -- "Camp Pontanezen".
 
 Required R libraries are: "broom", "caret", "coefplot", "glmnet", "tidyverse", "stargazer", and "wbstats".
 
-We recommend that users run replication code and scripts from the root directory using the R project "demo-regularisation.Rproj".
+We recommend that users run replication code and scripts from the root directory using the R project "**demo-regularisation.Rproj**".
 
 ### Replication Instructions
 
