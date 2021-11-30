@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains a demonstration for R of regularisation, cross-validation, and shrinkage methods. The application of these techniques is for illustrative purposes only on determinants of egalitarian democracy. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls, adjustments to standard errors, and robustness checks.
+This repository contains a demonstration for R of regularisation, cross-validation, and shrinkage methods. The application of these techniques is for illustrative purposes only on determinants of egalitarian democracy. The results should not be considered for any interpretation since it is necessary to develop a causal identification strategy and apply a number of controls, adjustments to standard errors, and robustness checks. In addition, it contains a merged, sliced data set from V-Dem and World Bank (N = 27,013). This set includes country-year observations from 1789 to 2019 of 202 countries.
 
 Chunks of this code for extraction and handling V-Dem and World Bank data were used in the following article:
 
