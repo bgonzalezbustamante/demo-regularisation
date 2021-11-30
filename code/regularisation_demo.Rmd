@@ -103,7 +103,7 @@ stargazer(kf_resample, type = "html", summary = FALSE, rownames = FALSE,
           notes.align = "c")
 ```
 
-## LOOCV Cross-Validation
+## LOOCV Method
 
 LOOCV uses a simple observation of the dataset as a test set, while the remaining cases are considered a training set. Then, the model is fitted on the training set, and the predictions are used to compare with the excluded observation. 
 
