@@ -402,7 +402,7 @@ data.
 </tr>
 </table>
 
-## LOOCV Cross-Validation
+## LOOCV Method
 
 LOOCV uses a simple observation of the dataset as a test set, while the
 remaining cases are considered a training set. Then, the model is fitted
