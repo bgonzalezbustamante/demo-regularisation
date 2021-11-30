@@ -126,7 +126,7 @@ Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/
 
 ### Latest Revision
 
-[November 18, 2021](CHANGELOG.md).
+[November 30, 2021](CHANGELOG.md).
 
 [^1]: V-Dem [Country–Year/Country–Date] Dataset v10 (Coppedge et al., 2020; DOI: https://doi.org/10.23696/vdemds20.) is downloaded from our OSF-project on COVID-19 in South America (DOI: TBC) during the first stage. However, it is important to bear in mind that the current data set is v11.1.
 [^2]: Data downloaded during the first stage from the World Bank API.
