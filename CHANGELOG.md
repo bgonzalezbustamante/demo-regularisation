@@ -9,7 +9,7 @@ All notable changes to "Regularisation and Cross-Validation of Determinants of E
 ### Added
 - Code of conduct in MD format.
 ### Changed
-- Minor corrections (WIP).
+- Minor corrections.
 
 ## [1.0.1] - 2021-11-18
 ### Changed
