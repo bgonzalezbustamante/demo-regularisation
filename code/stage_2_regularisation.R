@@ -111,7 +111,7 @@ stargazer(kf_resample, type = "html", out = "output/table_1.html",
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#### LOOCV Cross-Validation ####
+#### LOOCV Method ####
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
