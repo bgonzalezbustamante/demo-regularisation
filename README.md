@@ -17,33 +17,6 @@ Further details and different applications on this [GitHub repository](https://b
 
 This code is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
-*demo-regularisation* \
-|-- .gitignore \
-|-- CHANGELOG.md \
-|-- CITATION.cff \
-|-- demo-regularisation.Rproj \
-|-- LICENSE.md \
-|-- README.md \
-|-- STATUS.md \
-|-- code \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.md \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.R \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo.Rmd \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_2_regularisation.R \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- regularisation_demo_files \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- lasso-1.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- lasso-2.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ols-1.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-1.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- ridge-2.png \
-|-- data \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- vdem_wb.csv \
-|-- output \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html 
-
 ``` r
 demo-regularisation
 |-- .gitignore
@@ -58,6 +31,8 @@ demo-regularisation
     |-- stage_1_data_cleaning.R
     |-- stage_2_regularisation.R
 |-- data
+    |-- raw
+        |-- vdem_wb.csv
     |-- tidy
         |-- vdem_wb.csv
 |-- demo
@@ -71,14 +46,16 @@ demo-regularisation
             |-- ridge-1.png
             |-- ridge-2.png
 |-- results
-    |-- tidy
+    |-- tables
         |-- table_01.html
+        |-- table_01.tex
         |-- table_02.html
+        |-- table_02.tex
 |-- refs
     |-- BIB-World-Development.bib
 ```
 
-5 directories and 20 files.
+10 directories and 24 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the replicability of the code.
 
