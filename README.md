@@ -77,7 +77,7 @@ We recommend that users run replication code and scripts from the root directory
 
 Folder "code" contains the R scripts.
 
-Folder "demo" contains a demonstration in RMD and MD formats (**[regularisation_demo.md](demo/regularisation_demo.md)**). On the other hand, "results" includes all tables provided as HTML and TeX files.
+Folder "demo" contains a demonstration in RMD and MD formats (**[regularisation_demo.md](demo/regularisation_demo.md)**). On the other hand, "results/tables" includes all tables provided as HTML and TeX files.
 
 These files will be overwritten if you reproduced the steps described below. 
 
@@ -89,7 +89,7 @@ It is possible to run the code from the second stage onward to check the methods
 
 ### Codebook
 
-The file "**vdem_wb.csv**" in "data/tidy" subfolder is the merged, sliced data set from V-Dem and World Bank (*N* = 27,013). This set contains country-year observations from 1789 to 2019 of 202 countries.
+The file "**vdem_wb.csv**" in "data/tidy" subfolder is the merged, sliced data set from V-Dem and World Bank (*N* = 27,013). This set contains country-year observations from 1789 to 2019 of 202 countries.[^3]
 
 - **country** (country_name in V-Dem). Country name.
 
@@ -144,3 +144,4 @@ Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/
 
 [^1]: V-Dem [Country–Year/Country–Date] Dataset v10 (Coppedge et al., 2020; DOI: [10.23696/vdemds20](https://doi.org/10.23696/vdemds20)) is downloaded from our OSF-project on COVID-19 in South America (DOI: [10.17605/OSF.IO/6FM7X](https://doi.org/10.17605/OSF.IO/6FM7X)) during the first stage. However, it is important to bear in mind that the current data set is v11.1.
 [^2]: Data downloaded during the first stage from the World Bank API.
+[^3]: This data set has been updated running the first stage code on February 12, 2022 (v1.2.1 -- White Waterfall). Therefore, there are slight differences with the previous version compiled on November 30, 2021 (v1.1.1 – Autumn Mode). The latter is used in the demonstration and is stored in the “data/raw” subfolder.
