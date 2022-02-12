@@ -33,7 +33,7 @@ library(glmnet)
 library(broom)
 
 ## Data
-vdem_wb <- read.csv("data/vdem_wb.csv", encoding = "UTF-8")
+vdem_wb <- read.csv("data/raw/vdem_wb.csv", encoding = "UTF-8")
 
 ## Descriptives
 nrow(vdem_wb)
@@ -103,7 +103,7 @@ names(kf_resample)[4] = "R2-MLR"
 names(kf_resample)[5] = "MAE-SLR"
 names(kf_resample)[6] = "MAE-MLR"
 
-stargazer(kf_resample, type = "html", out = "output/table_1.html", 
+stargazer(kf_resample, type = "latex", out = "results/tables/table_01.tex", 
           summary = FALSE, rownames = FALSE, header = FALSE,style = "ajps", 
           title = "10-Fold Cross-Validation Results", 
           notes = "Source: Compiled by author using V-Dem (2020) and World Bank (2021) data.", 
@@ -140,7 +140,7 @@ names(cv_table)[3] = "KF-MLR"
 names(cv_table)[4] = "LOOCV-SLR"
 names(cv_table)[5] = "LOOCV-MLR"
 
-stargazer(cv_table, type = "html", out = "output/table_2.html", 
+stargazer(cv_table, type = "latex", out = "results/tables/table_02.tex", 
           summary = FALSE, rownames = FALSE, header = FALSE, style = "ajps", 
           title = "10-Fold Cross-Validation and LOOCV", 
           notes = "Source: Compiled by author using V-Dem (2020) and World Bank (2021) data.", 
