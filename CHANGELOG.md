@@ -5,6 +5,13 @@ All notable changes to "Regularisation and Cross-Validation of Determinants of E
 
 ## [Released]
 
+## [1.2.1] - 2022-02-12
+### Added
+- BibTeX file.
+### Changed
+- Scripts and folders names standardisation.
+- Minor corrections.
+
 ## [1.1.1] - 2021-11-30
 ### Added
 - Code of conduct in MD format.
