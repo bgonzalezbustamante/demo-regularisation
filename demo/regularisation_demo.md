@@ -15,7 +15,7 @@ library(broom)
 
 ``` r
 ## Data
-vdem_wb <- read.csv("../data/vdem_wb.csv", encoding = "UTF-8")
+vdem_wb <- read.csv("../data/raw/vdem_wb.csv", encoding = "UTF-8")
 
 ## Descriptives
 nrow(vdem_wb)
