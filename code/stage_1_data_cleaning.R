@@ -56,4 +56,5 @@ names(wb_set)[7] = "gdp_pc"
 vdem_wb <- left_join(vdem, wb_set[-1:-2], by = c("country", "year"))
 
 ## Save Clean Data
-write.csv(vdem_wb, "data/vdem_wb.csv", fileEncoding = "UTF-8", row.names =  FALSE)
+write.csv(vdem_wb, "data/tidy/vdem_wb.csv", fileEncoding = "UTF-8", row.names =  FALSE)
+
