@@ -44,6 +44,40 @@ This code is stored with version control on a GitHub repository. Furthermore, a 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_1.html \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- table_2.html 
 
+``` r
+demo-regularisation
+|-- .gitignore
+|-- CHANGELOG.md
+|-- demo-regularisation.Rproj
+|-- CITATION.cff
+|-- CODE_OF_CONDUCT.md
+|-- LICENSE.md
+|-- README.md
+|-- STATUS.md
+|-- code
+    |-- stage_1_data_cleaning.R
+    |-- stage_2_regularisation.R
+|-- data
+    |-- tidy
+        |-- vdem_wb.csv
+|-- demo
+    |-- regularisation_demo.md
+    |-- regularisation_demo.Rmd
+    |-- regularisation_demo_files
+        |-- figure-gfm
+            |-- lasso-1.png
+            |-- lasso-2.png
+            |-- ols-1.png
+            |-- ridge-1.png
+            |-- ridge-2.png
+|-- results
+    |-- tidy
+        |-- table_01.html
+        |-- table_02.html
+|-- refs
+    |-- BIB-World-Development.bib
+```
+
 5 directories and 20 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the replicability of the code.
